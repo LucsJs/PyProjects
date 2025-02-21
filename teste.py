@@ -1,2 +1,4 @@
-print("Hello World")
+def HelloWorld(txt):
+    print(txt)
 
+HelloWorld("print")
