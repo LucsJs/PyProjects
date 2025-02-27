@@ -1,11 +1,11 @@
-estoque = {
-    "Tomate": {"Quantidade": 1000, "Preço": 2.3},
-    "Alface": [500, 0.45],
-    "Batata": [2001, 1.2],
-    "Feijão": [100, 1.5],
-}
+# Transforma cada caractere de uma frase em uma chave de dicionário
 
+dicionario = {}
 
-print(estoque["Tomate"]["Quantidade"])
+frase = input("Digite uma frase: ")
+for letra in frase:
+    if (letra != ' '):
+        dicionario[letra] = 1
 
+print(dicionario)
 
